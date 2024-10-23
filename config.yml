@@ -1,14 +1,14 @@
 backend:
   name: git-gateway
-  branch: main # O branch que você está usando
+  branch: main
 
-media_folder: "uploads" # Pasta para armazenar arquivos de mídia
-public_folder: "/uploads" # Caminho público
+media_folder: "uploads"
+public_folder: "/uploads"
 
 collections:
-  - name: "produtos" # Nome da coleção
+  - name: "produtos"
     label: "Produtos"
-    folder: "produtos" # Pasta onde os arquivos de produtos estão
+    folder: "produtos"
     create: true
     fields:
       - { label: "Nome", name: "nome", widget: "string" }
